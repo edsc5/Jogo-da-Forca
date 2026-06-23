@@ -109,7 +109,7 @@ async function jogar() {
 
         console.log("\nCategoria:", categoriaEscolhida);
         console.log("Palavra:", mostrarPalavra(palavra, letrasCorretas));
-        console.log("Tentadas:", letrasTentadas.join(", "));
+        console.log("Tentativas:", letrasTentadas.join(", "));
         console.log("Erros restantes:", maxErros - erros);
 
         const letra = (
